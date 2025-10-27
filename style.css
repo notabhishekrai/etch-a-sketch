@@ -19,6 +19,7 @@ body {
   border: 1px solid black;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
 }
 
 .mini-div {
@@ -26,7 +27,9 @@ body {
 }
 
 .mini-div:hover {
+  transition: 0.5s ease;
   background-color: red;
+  cursor: pointer;
 }
 
 .btn,
