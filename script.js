@@ -12,3 +12,18 @@ for (let i = 1; i <= 16; i++) {
   const br = document.createElement("br");
   canvas.appendChild(br);
 }
+
+function createGrid(numberOfRow) {
+  let numberOfColumn = numberOfRow;
+  for (let i = 1; i <= numberOfRow; i++) {
+    for (let j = 1; j <= numberOfColumn; j++) {
+      const canvas_width = canvas.clientWidth;
+      const mini_div = document.createElement("div");
+      mini_div.classList.add("mini-div");
+      mini_div.style.width = `${canvas_width / numberOfRow}px`;
+      canvas.appendChild(mini_div);
+    }
+    const br = document.createElement("br");
+    canvas.appendChild(br);
+  }
+}
