@@ -10,6 +10,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .canvas {
@@ -25,4 +26,9 @@ body {
 
 .mini-div:hover {
   background-color: red;
+}
+
+.btn,
+.user-input {
+  padding: 8px;
 }
