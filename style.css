@@ -17,3 +17,11 @@ body {
   height: 700px;
   border: 1px solid black;
 }
+
+.mini-div {
+  border: 1px solid black;
+}
+
+.mini-div:hover {
+  background-color: red;
+}
